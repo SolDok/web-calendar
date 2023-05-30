@@ -89,9 +89,7 @@ window.onload = function() {
 		$(this).toggleClass("green-color");
 		$(this).toggleClass("white-font");
 	})
-	$(function(){
-		$('.legend').load('book_days.php');
-	})
+	$('.legend').load('book_days.php');
 }
 function getId(id) {
 	return document.getElementById(id);
